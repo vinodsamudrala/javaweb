@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.core.java.variable.GlobalVariableTest&apos; to &apos;MainTest&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava&apos;&#x0D;&#x0A;- Original element: &apos;com.core.java.variable.GlobalVariableTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.core.java.variable.MainTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GlobalVariableTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.core.java.variable{GlobalVariableTest.java[GlobalVariableTest" matchStrategy="1" name="MainTest" qualified="false" references="true" similarDeclarations="false" stamp="1464066133311" textual="false" version="1.0"/>
+</session>

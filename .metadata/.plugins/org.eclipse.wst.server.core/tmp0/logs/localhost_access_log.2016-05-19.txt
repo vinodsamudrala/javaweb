@@ -1,0 +1,8 @@
+127.0.0.1 - - [19/May/2016:10:34:35 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [19/May/2016:10:34:45 +0530] "GET /MyApp/jsp/JDBC.jsp HTTP/1.1" 200 404
+0:0:0:0:0:0:0:1 - - [19/May/2016:10:34:45 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [19/May/2016:10:35:07 +0530] "GET /MyApp/login?userName=&password= HTTP/1.1" 200 22
+0:0:0:0:0:0:0:1 - - [19/May/2016:10:35:22 +0530] "GET /MyApp/login?userName=&password= HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/May/2016:10:35:24 +0530] "GET /MyApp/jsp/JDBC.jsp HTTP/1.1" 200 404
+0:0:0:0:0:0:0:1 - - [19/May/2016:10:35:35 +0530] "GET /MyApp/jsp/JDBC.jsp HTTP/1.1" 200 404
+0:0:0:0:0:0:0:1 - - [19/May/2016:10:35:42 +0530] "GET /MyApp/login?userName=vinod&password=vinod HTTP/1.1" 200 22

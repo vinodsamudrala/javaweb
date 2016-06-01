@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="HELLO12"/>
+<fullyQualifiedTypeName name="com.core.staticnonstatic.Test1"/>
+<fullyQualifiedTypeName name="com.core.java.variable.GlobalVariableTest"/>
+<fullyQualifiedTypeName name="com.core.java.overloading.OverLoadingTest"/>
+<fullyQualifiedTypeName name="com.core.java.overloading.OverLoadingTest2"/>
+</qualifiedTypeNameHistroy>
