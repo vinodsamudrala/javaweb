@@ -3,7 +3,6 @@ package com.corejava.instance;
 public class InstanceTest {
 
 	int x = 10;
-
 	
 	// alt + shit + s -> generate constructor 
 
