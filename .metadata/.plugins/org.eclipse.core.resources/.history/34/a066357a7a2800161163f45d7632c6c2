@@ -1,0 +1,20 @@
+package com.core.java.overriding;
+
+class Vehicle{
+	int noOfWheels = 4;
+}
+
+class Car extends Vehicle{
+	String color = "red";
+}
+
+
+class Parent1{
+	
+}
+
+public class Example2 {
+
+	
+
+}

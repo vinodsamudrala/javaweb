@@ -1,0 +1,22 @@
+package com.corejava.instance;
+
+class Parent{
+	
+	int x = 10;
+
+	
+	// alt + shit + s -> generate constructor 
+	public Parent() {
+		super();
+	}
+	
+	
+	
+}
+class Child extends Parent{
+	
+}
+
+public class InstanceTest {
+
+}

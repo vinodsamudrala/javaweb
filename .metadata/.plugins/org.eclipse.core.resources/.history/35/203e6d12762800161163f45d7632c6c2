@@ -1,0 +1,9 @@
+package com.core.java.overriding;
+
+public class OverringTest {
+
+	public void method(){
+		
+	}
+	
+}

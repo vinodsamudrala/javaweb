@@ -1,0 +1,20 @@
+package com.core.java.overriding;
+
+class Parent3{
+	
+	public static void method(){
+			
+		}
+}
+
+class Child3 extends Parent3{
+
+	public static void method(){
+		
+	}
+	
+}
+
+public class Example3 {
+	
+}

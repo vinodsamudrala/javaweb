@@ -1,0 +1,35 @@
+package com.corejava.instance;
+
+class Parent{
+	
+	int x = 10;
+
+	
+	// alt + shit + s -> generate constructor 
+	public Parent() {
+		
+		System.out.println("Constructor");
+		
+	}
+	
+	{
+		System.out.println("Non Static Block 1");
+		
+	}
+	
+	public void m1(){
+		
+		System.out.println(y);
+	}
+	
+	{
+		System.out.println("Non Static Block 2");
+	}
+	
+	int y = 20;
+	
+}
+
+public class InstanceTest {
+
+}

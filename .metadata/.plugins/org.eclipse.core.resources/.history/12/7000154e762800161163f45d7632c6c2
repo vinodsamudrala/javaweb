@@ -1,0 +1,19 @@
+package com.core.java.overriding;
+
+class Parent {
+	public void method() {
+		System.out.println("Inside Parent");
+	}
+
+}
+
+class Child extends Parent {
+
+	public void method() {
+		System.out.println("Inside Parent");
+	}
+}
+
+public class OverringTest {
+
+}

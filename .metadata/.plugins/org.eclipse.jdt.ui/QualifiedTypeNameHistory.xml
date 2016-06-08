@@ -6,4 +6,7 @@
 <fullyQualifiedTypeName name="com.core.java.variable.GlobalVariableTest"/>
 <fullyQualifiedTypeName name="com.core.java.overloading.OverLoadingTest"/>
 <fullyQualifiedTypeName name="com.core.java.overloading.OverLoadingTest2"/>
+<fullyQualifiedTypeName name="com.core.java.overriding.Child"/>
+<fullyQualifiedTypeName name="com.core.java.overriding.Vehicle"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

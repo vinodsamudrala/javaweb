@@ -1,0 +1,65 @@
+package com.core.java.overriding;
+
+class Vehicle{
+
+	int noOfWheels = 4;
+	
+	public Vehicle(){
+		
+	}
+	
+	public Vehicle(int noOfWheels) {
+		super();
+		this.noOfWheels = noOfWheels;
+	}
+
+	public int getNoOfWheels() {
+		return noOfWheels;
+	}
+
+	public void setNoOfWheels(int noOfWheels) {
+		this.noOfWheels = noOfWheels;
+	}
+	
+	
+}
+
+class Car extends Vehicle{
+	
+	// calls parent class 0 argment constructor
+	String color = "red";
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
+	
+}
+
+
+class Parent1{
+	
+	public Integer method1(){
+	
+		return new Integer(10);
+	
+	}
+}
+class Child1 extends Parent1{
+	
+	public Integer method1(){
+		
+		return new Integer(20);
+	}
+	
+}
+
+public class Example2 {
+
+	
+
+}
