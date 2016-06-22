@@ -5,14 +5,14 @@ public class ConstructorTest {
 	
 	public ConstructorTest(){
 		
-		System.out.println("inside Constructor Test");
+		System.out.println("inside Constructor SingletonTest");
 	}
 	
 	
 	// method
 	public void ConstructorTest(){
 		
-		System.out.println("inside Constructor Test Method");
+		System.out.println("inside Constructor SingletonTest Method");
 	}
 	
 	

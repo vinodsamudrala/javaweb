@@ -15,8 +15,11 @@ class Parent {
 		System.out.println("loaddrivers.....!!!!!!!");
 		System.out.println("instance block in parent");
 	}
+
+	// modifier xxxx constructor() is not allowed---X static, X final  
 	
-	public Parent() {
+	
+	 Parent() {
 		//String loaddrivers = "process initialized";
 	
 		System.out.println("0 arg Parent");
@@ -69,7 +72,9 @@ public class Test2 {
 	public static void main(String[] args) {
 		Test t =  new Test(10);
 		
-	//	Parent p1 = new Parent(200);
+		Parent p = new Parent();
+		
+		Parent p1 = new Parent(200);
 		
 	//	Parent p2 = new Parent(200,100);
 		

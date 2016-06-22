@@ -20,6 +20,7 @@ class Student{
 	public boolean equals(Object obj) {
 		
 		Student studentArg = (Student) obj;
+		
 		return (this.name == studentArg.name) && (this.id == studentArg.id);
 
 		/*boolean returnVal = false;*/
