@@ -6,7 +6,11 @@ public class StringTest2 {
 		
 		String name = "xyz;vinod;rakesh";
 		
+		System.out.println(name+":"+name.hashCode());
+		
 		name = name.replace(";", " ");
+		
+		System.out.println(name+":"+name.hashCode());
 		
 		System.out.println(name);
 		
