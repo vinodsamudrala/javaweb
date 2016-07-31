@@ -70,11 +70,11 @@ public class ArrayListTest {
 		int count = 1;
 		for(Student1 s:stCollection1){
 			
-			/*if(count == 3){
+			if(count == 3){
 				s.id = 1005;
-				//stCollection1.remove(2);
+				stCollection1.remove(2);
 			}
-			*/
+			
 			//System.out.println(s);
 			
 			count++;
