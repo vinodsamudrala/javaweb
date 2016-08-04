@@ -26,6 +26,12 @@ public class ExceptionExample1 {
 		 * FileNotFoundException which is a checked exception
 		 */
 		try {
+			System.out.println();
+			try {
+
+			} catch (Exception e) {
+
+			}
 
 			fis = new FileInputStream("D:/myfile.txt");
 			int k;
@@ -34,16 +40,54 @@ public class ExceptionExample1 {
 			}
 			fis.close();
 
-		}
-		catch (FileNotFoundException e) {
+			if (false) {
+				throw new IOException();
+			}
+
+			System.out.println("After throw");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+
+	}
+
+
+
+	public static void main1(String[] args) {
 		
+		try {
+				
+				System.out.println("going to divide");
+					
+				try {
+					
+					int b = 39 / 0;
+				
+				} catch (Exception e) {
+				
+					e.printStackTrace();
+				
+				}
+				
+				String number = "two";
+				
+				int n =  Integer.parseInt(number);
+				
+				System.out.println(n);
+				
+
+		} catch (Exception e) {
+
+		}
+
+		finally{
+		
+			
+		}
 
 	}
 

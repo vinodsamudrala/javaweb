@@ -2,7 +2,9 @@ package com.corejava.com.core.java.Interface;
 
 interface ITest {
 	
-	public boolean sendEmail();
+	public static final int x =10;
+	
+	public boolean  sendEmail();
 	
 	public boolean print();
 }
@@ -10,7 +12,7 @@ interface ITest {
 abstract class yahoo implements ITest{
 
 	public yahoo() {
-		System.out.println("yahoo constractor initialized");
+		System.out.println("yahoo constractor initialized"+ x);
 		// TODO Auto-generated constructor stub
 	}
 	

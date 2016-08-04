@@ -6,7 +6,6 @@ import java.util.Iterator;
 public class ArrReplaceElement {
 
 	public static void replace(ArrayList al, String rFrom, String rTo){
-		
 		int index = al.indexOf(rFrom);
 		if(index > -1 ){
 			al.remove(index);

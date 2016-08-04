@@ -23,9 +23,9 @@ public class TestFinallized {
 		Runtime rt = Runtime.getRuntime();
 		
 		System.out.println("Available Free Memory: " + rt.freeMemory());
-
+		GC1 x = null;
 		for (int i = 0; i < 10000; i++) {
-			GC1 x = new GC1(i);
+			 x = new GC1(i);
 		}
 
 		System.out.println("Free Memory before call to gc(): " + rt.freeMemory());
@@ -33,7 +33,11 @@ public class TestFinallized {
 		System.gc();
 		
 		System.out.println(" Free Memory after call to gc(): " + rt.freeMemory());
-
+		
+            x=null;
+            System.gc();
+            System.out.println(" Free Memory after call to gc(): " + rt.freeMemory());
+        	System.gc();
 	}
 }
 
