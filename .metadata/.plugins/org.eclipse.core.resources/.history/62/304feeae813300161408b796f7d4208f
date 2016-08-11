@@ -1,0 +1,49 @@
+package com.core.java.equals;
+
+class Student{
+	String name ;
+
+	public Student(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		
+		Student testArg = (Student) obj;
+		return (this.name == testArg.name);
+
+		/*boolean returnVal = false;*/
+		
+		/*if(this.name == testArg.name){
+			returnVal = true;
+		}
+	
+		//return returnVal;
+	
+		
+		if(this.name == testArg.name){
+			return true;
+		}
+		
+	//	return false;
+		*/
+	
+	}
+}
+
+
+public class EqualsMethodTest {
+	
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student("vinod");
+		
+		Student s2 = new Student("vinod");
+		
+		System.out.println( s1 == s2);
+		
+		System.out.println( s1.equals(S2) );
+	}
+}

@@ -1,0 +1,10 @@
+package com.core.java.equals;
+
+class Test{
+	String name ="vinod";
+}
+
+
+public class EqualsMethodTest {
+
+}

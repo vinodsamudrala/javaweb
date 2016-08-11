@@ -1,0 +1,20 @@
+package com.core.java.equals;
+
+class Test{
+	String name ;
+
+	public Test(String name) {
+		this.name = name;
+	}
+	
+}
+
+
+public class EqualsMethodTest {
+
+	public static void main(String[] args) {
+		Test test1 = new Test("vinod");
+		Test test2 = new Test("vinod");
+		
+	}
+}

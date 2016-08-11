@@ -1,0 +1,9 @@
+package com.core.java.finaliized;
+
+public class TestFinallized {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

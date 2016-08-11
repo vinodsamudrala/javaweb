@@ -1,0 +1,41 @@
+package com.core.java.collections;
+
+import java.util.ArrayList;
+
+class Student1{
+	
+}
+
+public class ArrayListTest {
+
+	public static void main(String[] args) {
+		
+		int[] a = new int[5]; // Homogenious
+		
+		ArrayList<Integer> myList = new ArrayList<Integer>(); // Heterogenious
+		
+		myList.add(10);
+		
+		myList.add(20);
+		
+		myList.add(5);
+		
+		//System.out.println(myList);
+	
+		/*	
+		myList.add("vinod");
+		
+		myList.add("rakesh");
+		
+		myList.add("java");
+		
+		System.out.println(myList);
+		
+		*/
+		
+		for(int x :myList){
+			System.out.println(x);
+			
+		}
+	}
+}

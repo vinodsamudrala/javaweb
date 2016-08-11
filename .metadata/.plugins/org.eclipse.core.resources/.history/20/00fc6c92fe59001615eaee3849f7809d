@@ -1,0 +1,25 @@
+package com.core.java.collections;
+
+
+class Vehicle{
+	String number;
+	String color;
+	String modal;
+	String type;
+	public Vehicle(String number, String color, String modal, String type) {
+		super();
+		this.number = number;
+		this.color = color;
+		this.modal = modal;
+		this.type = type;
+	}
+	
+}
+
+public class TreesetTest2 {
+
+	public static void main(String[] args) {
+		
+		Vehicle vehicle = new Vehicle()
+	}
+}

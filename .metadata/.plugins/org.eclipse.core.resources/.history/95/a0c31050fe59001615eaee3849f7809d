@@ -1,0 +1,15 @@
+package com.core.java.collections;
+
+
+class Vehicle{
+	String number;
+	String color;
+	String modal;
+}
+
+public class TreesetTest2 {
+
+	public static void main(String[] args) {
+		
+	}
+}

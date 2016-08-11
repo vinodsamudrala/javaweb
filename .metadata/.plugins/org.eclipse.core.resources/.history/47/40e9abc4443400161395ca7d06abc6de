@@ -1,0 +1,10 @@
+package com.core.java.finaliized;
+
+public class TestFinallized {
+	
+	public static void main(String[] args) {
+		System.out.println("invoking GC");
+		System.gc();   // invokes the garbage collector.
+	}
+
+}

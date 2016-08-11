@@ -1,0 +1,19 @@
+package com.core.java.equals;
+
+class Test{
+	String name ;
+
+	public Test(String name) {
+		this.name = name;
+	}
+	
+}
+
+
+public class EqualsMethodTest {
+
+	public static void main(String[] args) {
+		Test test = new Test("vinod");
+		
+	}
+}

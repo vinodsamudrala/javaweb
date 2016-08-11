@@ -1,0 +1,14 @@
+package com.core.java.constructors;
+
+public class Test3 {
+
+	int x;
+
+	/*public static Test3() {
+		
+	}
+	*/
+	private Test3(int x) {
+		
+	}
+}

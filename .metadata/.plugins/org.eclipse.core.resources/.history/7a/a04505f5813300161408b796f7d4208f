@@ -1,0 +1,26 @@
+package com.core.java.equals;
+
+class Student{
+	String name ;
+
+	public Student(String name) {
+		this.name = name;
+	}
+	
+}
+
+
+public class EqualsMethodTest {
+	
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student("vinod");
+		
+		Student s2 = new Student("vinod");
+		
+		System.out.println( s1 == s2); //false
+		
+		System.out.println( s1.equals(s2) ); //true
+	}
+}
