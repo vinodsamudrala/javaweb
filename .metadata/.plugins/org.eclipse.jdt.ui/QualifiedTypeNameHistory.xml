@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-<fullyQualifiedTypeName name="HELLO12"/>
-<fullyQualifiedTypeName name="com.core.staticnonstatic.Test1"/>
-<fullyQualifiedTypeName name="com.core.java.variable.GlobalVariableTest"/>
-<fullyQualifiedTypeName name="com.core.java.overloading.OverLoadingTest"/>
-<fullyQualifiedTypeName name="com.core.java.overloading.OverLoadingTest2"/>
-<fullyQualifiedTypeName name="com.core.java.overriding.Child"/>
-<fullyQualifiedTypeName name="com.core.java.overriding.Vehicle"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="Employee"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.core.java.collections.student"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="com.core.java.collections.TreesetTest"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="com.core.java.collections.Vehicle"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
 </qualifiedTypeNameHistroy>

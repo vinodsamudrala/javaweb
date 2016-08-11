@@ -13,8 +13,16 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
+		<item value="compare" key="selection"/>
 		<list key="findhistory">
-			<item value="package com.core.java.variable;"/>
+			<item value="Compare"/>
+			<item value="compare"/>
+			<item value="compareto"/>
+			<item value="&quot;A&quot;"/>
+			<item value="A"/>
+			<item value="1"/>
+			<item value="tos"/>
+			<item value="AbstractList"/>
 		</list>
 		<list key="replacehistory">
 		</list>
