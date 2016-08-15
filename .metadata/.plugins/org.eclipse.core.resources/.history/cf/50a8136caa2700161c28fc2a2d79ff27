@@ -1,8 +1,0 @@
-package com.core.java.overloading;
-
-public class OverLoadingTest {
-	
-	public void greetings(String name){
-		System.out.println("Good Morning");
-	}
-}
